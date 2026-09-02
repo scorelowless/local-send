@@ -1,4 +1,4 @@
-# Flutter app for sending and receiving messages through LAN
+# LocalSend - Flutter app for sending and receiving messages through LAN
 
 The app was written for a Flutter course and allows for sharing messages over a local area network (LAN).
 
