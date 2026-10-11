@@ -33,7 +33,12 @@ TODO
 - Kotlin
 
 ## Running
-TODO
+Pre-built binaries for Android & Linux are available on the [Releases page](https://github.com/scorelowless/local-send/releases).
+
+- Android: Download the APK and install it on your device
+- Linux (x86_64): Donwload and extract the archive, then run the application from the extracted directory
+
+Instructions for manual builds are WIP
 
 ## AI disclosure
 ChatGPT and GitHub Copilot were used during development, primarily for code assistance and documentation. The application architecture and functionality was designed by me. The networking layer was manually designed, implemented and debugged by me, including message structure and networking scheme.
