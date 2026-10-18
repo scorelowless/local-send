@@ -21,8 +21,8 @@ The application detects nearby devices using UDP broadcast, while connection bet
 
 The networking layer was implemented and tested manually with real devices, including communication between different supported platforms.
 
-## Screenshots 
-TODO
+## Screenshots
+<img src="screenshots/LocalSend-Linux.png" height="360"><img src="screenshots/LocalSend-Android.png" height="360">
 
 ## Technologies
 - Flutter
@@ -38,7 +38,20 @@ Pre-built binaries for Android & Linux are available on the [Releases page](http
 - Android: Download the APK and install it on your device
 - Linux (x86_64): Donwload and extract the archive, then run the application from the extracted directory
 
-Instructions for manual builds are WIP
+### Manual run
+To run the code directly make sure you have [Flutter](https://docs.flutter.dev/get-started/install) installed and configured.
+
+First, clone the repository
+   ```bash
+   git clone https://github.com/scorelowless/local-send.git
+   cd local-send
+   ```
+Run the application on Linux:
+```bash
+flutter run -d linux
+```
+
+For running on Android see [the guide](https://docs.flutter.dev/platform-integration/android/setup)
 
 ## AI disclosure
 ChatGPT and GitHub Copilot were used during development, primarily for code assistance and documentation. The application architecture and functionality was designed by me. The networking layer was manually designed, implemented and debugged by me, including message structure and networking scheme.
